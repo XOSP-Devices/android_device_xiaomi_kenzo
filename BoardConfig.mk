@@ -224,5 +224,8 @@ WIFI_DRIVER_FW_PATH_STA     := "sta"
 PRODUCT_PROPERTY_OVERRIDES += \
    persist.debug.wfd.enable=1
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # inherit from the proprietary version
 -include vendor/xiaomi/kenzo/BoardConfigVendor.mk
