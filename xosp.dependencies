@@ -1,30 +1,20 @@
 [
   {
-    "remote": "XOSPD",
     "revision": "xosp-n",
-    "repository": "XOSP-Devices/android_kernel_xiaomi_msm8956",
+    "repository": "XOSP-Project/android_kernel_xiaomi_msm8956",
     "target_path": "kernel/xiaomi/msm8956"
   },
   {
-    "remote": "XOSPD",
-    "revision": "xosp-n",
-    "repository": "XOSP-Devices/android_device_xiaomi_msm8956-common",
-    "target_path": "device/xiaomi/msm8956-common"
-  },
-  {
-    "remote": "XOSPD",
     "revision": "cm-14.1",
     "repository": "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings"
   },
   {
-    "remote": "XOSPD",
     "revision": "xosp-n-rebase",
     "repository": "XOSP-Project/android_device_qcom_common",
     "target_path": "device/qcom/common"
   },
   {
-    "remote": "XOSPD",
     "revision": "xosp-n",
     "repository": "XOSP-Devices/proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi"
